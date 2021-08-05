@@ -23,6 +23,7 @@ i {
 
 .navbar-mainbg {
   background-color: #0b132b;
+
   padding: 0px;
   position: sticky;
   top: 0px;
@@ -49,7 +50,7 @@ i {
 #navbarSupportedContent ul li a {
   color: rgba(204, 221, 226, 1);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
   display: block;
   padding: 20px 20px;
   transition-duration: 0.5s;
@@ -151,5 +152,70 @@ i {
   .hori-selector .right:before {
     bottom: -25px;
     left: -25px;
+  }
+}
+.midsection {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.hidden-menu {
+  display: none;
+
+  background-color: #0b132b;
+
+  padding-right: 3px;
+
+  color: #0b132b;
+  position: sticky;
+
+  width: 100%;
+  height: 0px;
+  border-radius: 10px;
+
+  border-style: none;
+  border-bottom-style: solid;
+  color: #0b132b;
+  border-color: #0b132b;
+  border-width: thick;
+  justify-items: center;
+}
+.ul-hidden {
+  background-color: #ccdde2;
+  width: max-content;
+  min-width: 450px;
+  height: 100%;
+  padding: 10px;
+  border: 10px;
+  border-bottom: 5px;
+  border-radius: 10px;
+  border-style: none;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  align-items: center;
+}
+.li-hidden {
+  float: left;
+  display: block;
+}
+.navlink-hidden {
+  display: block;
+  font-weight: 600;
+  border-width: 1px;
+  padding: 20px;
+  color: #0b132b;
+  text-decoration: none;
+  font-size: 18px;
+  &:hover {
+    border-style: dotted;
+    color: #0b132b;
+    border-radius: 5px;
+    padding: 19px;
+    border-color: #0b132b;
+    border-width: thin;
   }
 }
