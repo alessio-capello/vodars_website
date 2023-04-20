@@ -1,0 +1,11 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  background-color: #1b264f;
+  color: #f5f3f5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

@@ -1,0 +1,119 @@
+.fullpage {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+}
+
+.glitchy-back {
+  width: 100vw;
+  height: 100vh;
+  background-color: #969696;
+  color: #302b27;
+}
+.glitchy {
+  position: absolute;
+  bottom: 3vh;
+  right: 2vw;
+  width: 30vw;
+  height: 40vh;
+  background-color: #1b264f;
+  border: 1px #f5f3f5 solid;
+  z-index: 2;
+  display: flex;
+  border-radius: 50px;
+}
+.glitchy-content {
+  margin: 5%;
+  width: 27vw;
+  display: flex;
+}
+.glitchy-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #f5f3f5;
+  color: red;
+  text-align: center;
+}
+.glitchy-text {
+  width: 22vw;
+  margin: 10px;
+  padding-left: 20px;
+  padding: 5px;
+  height: fit-content;
+  border-radius: 10px;
+  text-align: left;
+  color: #302b27;
+  background-color: #f5f3f5;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.compiler-popup {
+  position: absolute;
+  top: 15%;
+  right: 20%;
+  margin: auto;
+  width: 60vw;
+  height: 70vh;
+  background-color: #1b264f;
+  border: 1px #f5f3f5 solid;
+  z-index: 2;
+  border-radius: 50px;
+}
+
+.compiler-text {
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 80%;
+  border-radius: 30px;
+  text-align: left;
+  color: #302b27;
+  background-color: #f5f3f5;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.code {
+  font-size: 13px;
+  font-family: "Cascadia Mono";
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
+  margin-left: 0cm;
+  line-height: normal;
+  font-size: 15px;
+  font-family: "Calibri", sans-serif;
+}
+.code-grey {
+  color: gray;
+}
+.code-black {
+  color: black;
+}
+.code-purple {
+  color: #6f008a;
+}
+.code-blue {
+  color: blue;
+}
+.code-red {
+  color: #a31515;
+}
+.code-ending {
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 8pt;
+  margin-left: 0cm;
+  line-height: 107%;
+  font-size: 15px;
+  font-size: 13px;
+  line-height: 107%;
+  font-family: "Cascadia Mono";
+  color: black;
+}

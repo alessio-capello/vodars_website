@@ -1,0 +1,9 @@
+space cadet:  #1B264F
+
+marian blue:  #274690
+
+true blue:  #576CA8
+
+jet:  #302B27
+
+white smoke:  #F5F3F5

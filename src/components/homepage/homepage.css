@@ -1,0 +1,51 @@
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.fullpage {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+}
+.mainpage {
+  padding: 1vw 1vh;
+  margin: 2vw 2vh;
+  width: 70vw;
+  height: 70vh;
+  background-color: #f5f3f5;
+  color: #302b27;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: max(1.7vw, 22px);
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.main-content {
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+}
